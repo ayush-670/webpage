@@ -1,0 +1,92 @@
+.{
+	margin: 10;
+	padding: 100;
+}
+#para1{
+	position: absolute;;
+	width: 1200px;
+	margin: 150px;
+	margin-right: 1500;
+	
+	font-size: 28px;
+	font-family: monospace;;
+	color: grey;
+	text-align: justify-all;
+	text-shadow: currentColor;
+	margin-top: 120px;
+
+}
+#link{
+	float: right;
+	margin-top: 30px;
+	list-style: none;
+	display: inline-block;
+
+}
+#link li {
+	display: inline-block;
+}
+#link li a{
+	color:grey;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+#home a{
+	border: 1px solid grey;
+	background-color: white;
+}
+#link li a:hover{
+	color: black;
+	border:1px solid grey;
+	background-color: white;
+}
+#feedback{
+	color: grey;
+	margin-top: 520px;
+	margin-right: 300px;
+	margin-left: 485px;
+	position: absolute;
+}
+#feed{
+	font-size: 26px;
+	width: 1200px;
+	margin: 150px;
+	margin-right: 1500px;
+	font-family: monospace;
+	color: grey;
+	margin-top: 330px;
+	position: absolute;
+
+}
+#btn1{
+	
+	font-family: monospace;
+	margin-top:655px;
+	border: 1px solid grey;
+	background-color: white;
+	display: inline-block;
+	margin-left: 670px;
+
+}
+#bttn1: hover{
+	color: black;
+	border:1px solid grey;
+	background-color: white;
+}
+#btn2{
+	border: 1px solid grey;
+	background-color: white;
+	margin-bottom: -1820px;
+	width: 150px;
+	margin-right: 900px;
+	margin-left: 785px;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('20200123_190439.jpg');
+	height: 100vh;
+	position: center;
+	background-size: cover;
+}
