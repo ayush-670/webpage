@@ -48,13 +48,13 @@ header {
 	background-color: white;
 }*/
 #link li a:hover{
-	color: black;
-	border:1px solid grey;
-	background-color: white;
+	color: white;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 img {
 	position: center;
 	size: cover;
 	margin-top: 200px;
-	margin-left:545px;
+	margin-left:435px;
 }
