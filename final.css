@@ -3,21 +3,21 @@
 	padding: 100;
 }
 #para1{
-	position: absolute;;
-	width: 1200px;
-	margin: 150px;
-	margin-right: 1500;
+	text-align: left;
+	position: absolute;
+	margin-top: 150px;
+	width: 900px;
+	text-transform: uppercase;
 	
-	font-size: 28px;
-	font-family: monospace;;
+	font-size: 20px;
+	font-family: consolas;
 	color: grey;
-	text-align: justify-all;
+	
 	text-shadow: currentColor;
-	margin-top: 120px;
-
+	
 }
 #link{
-	float: right;
+	float: left;
 	margin-top: 30px;
 	list-style: none;
 	display: inline-block;
@@ -38,54 +38,62 @@
 	background-color: white;
 }
 #link li a:hover{
-	color: black;
-	border:1px solid grey;
-	background-color: white;
+	color: white;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 #feedback{
 	color: grey;
-	margin-top: 520px;
-	margin-right: 300px;
-	margin-left: 485px;
+	margin-top: 100px;
+	margin-left: 40px;
 	position: absolute;
 }
 #feed{
-	font-size: 26px;
-	width: 1200px;
-	margin: 150px;
-	margin-right: 1500px;
-	font-family: monospace;
-	color: grey;
-	margin-top: 330px;
+	margin-top: 300px;
+	text-align: left;
 	position: absolute;
-
-}
-#btn1{
+	width: 900px;
+	text-transform: uppercase;
 	
-	font-family: monospace;
-	margin-top:655px;
-	border: 1px solid grey;
-	background-color: white;
+	font-size: 20px;
+	font-family: consolas;
+	color: grey;
+	
+	text-shadow: currentColor;
+}
+
+	
+
+.sub a{
+	font-family: consolas;
+	position: relative;
 	display: inline-block;
-	margin-left: 670px;
+	padding: 10px 25px;
+	color: grey;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 20px;
+	overflow: hidden;
+	transition: 0.2s;
+	margin-top: 260px;
+	margin-left: 175px;
 
 }
-#bttn1: hover{
-	color: black;
-	border:1px solid grey;
-	background-color: white;
+.sub a:hover{
+	color: white;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
-#btn2{
-	border: 1px solid grey;
-	background-color: white;
-	margin-bottom: -1820px;
-	width: 150px;
-	margin-right: 900px;
-	margin-left: 785px;
+#ftt img{
+	size:cover;
+	margin-top: -85px;
+	margin-left: 1050px;
+	position: center;
 }
 
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('20200123_190439.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('WhatsApp Image 2020-02-03 at 21.49.36.jpeg');
 	height: 100vh;
 	position: center;
 	background-size: cover;
